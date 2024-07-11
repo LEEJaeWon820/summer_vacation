@@ -13,14 +13,14 @@
 #define Left  1 
 #define Right 2
 
-#define TRIG1 13 // 초음파 센서 1번 Trig 핀 번호
-#define ECHO1 12 // 초음파 센서 1번 Echo 핀 번호
+#define TRIG1 31 // 초음파 센서 1번 Trig 핀 번호
+#define ECHO1 30 // 초음파 센서 1번 Echo 핀 번호
 
-#define TRIG2 16 // 초음파 센서 2번 Trig 핀 번호
-#define ECHO2 17 // 초음파 센서 2번 Echo 핀 번호
+#define TRIG2 27 // 초음파 센서 2번 Trig 핀 번호
+#define ECHO2 26 // 초음파 센서 2번 Echo 핀 번호
 
-#define TRIG3 14 // 초음파 센서 3번 Trig 핀 번호
-#define ECHO3 15 // 초음파 센서 3번 Echo 핀 번호
+#define TRIG3 34 // 초음파 센서 3번 Trig 핀 번호
+#define ECHO3 35 // 초음파 센서 3번 Echo 핀 번호
 
 NewPing sonar[SONAR_NUM] = {   
   NewPing(TRIG1, ECHO1, MAX_DISTANCE), 
